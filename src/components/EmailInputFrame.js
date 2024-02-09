@@ -102,8 +102,9 @@ const EmailInputFrame = () => {
           <div className="w-[67rem] flex flex-col items-start justify-start gap-[4.44rem] max-w-full lg:gap-[4.44rem] mq750:gap-[4.44rem]">
             <div className="self-stretch flex flex-col items-start justify-start gap-[2rem] max-w-full mq750:gap-[2rem]">
               <div className="self-stretch flex flex-row items-start justify-end max-w-full">
-                <div className="w-[51.94rem] flex flex-row items-end justify-between gap-[1.25rem] max-w-full mq450:flex-wrap">
-                  <button className="cursor-pointer [border:none] py-[0.69rem] pr-[2.56rem] pl-[2.5rem] bg-peru-100 flex flex-row items-center justify-start gap-[0.38rem]">
+              
+                <div className="w-[51.94rem] flex flex-row items-end justify-between gap-[1.25rem]  max-w-full mq450:flex-wrap">
+                  <button onClick={()=> window.open("https://instagram.com/itsyourturn.in")} className="cursor-pointer [border:none] py-[0.69rem] pr-[2.56rem] pl-[2.5rem] bg-peru-100 flex flex-row items-center justify-start lg:mx-auto gap-[0.38rem]">
                     <img
                       className="h-[3.13rem] w-[12.44rem] relative hidden"
                       alt=""
@@ -118,6 +119,7 @@ const EmailInputFrame = () => {
                       src="/streamlineinterfacearrowssynchronizearrowsloadingloadsyncsynchronizearrowreload.svg"
                     />
                   </button>
+
                   <div className="flex flex-col items-start justify-start pt-[0rem] px-[0rem] pb-[0.38rem]">
                     <div className="relative leading-[1.57rem] capitalize font-medium">
                       All Team Member
@@ -126,7 +128,7 @@ const EmailInputFrame = () => {
                 </div>
               </div>
               <div className="w-[43.13rem] flex flex-col items-center justify-start gap-[1.56rem] max-w-full text-center text-[4.25rem] text-black font-cinzel-decorative">
-                <div className="w-[36.19rem] flex flex-row items-start justify-start py-[0rem] pr-[0.44rem] pl-[0rem] box-border max-w-full">
+                <div className="w-[36.19rem] flex flex-row items-start justify-start py-[0rem] pr-[0.44rem] pl-[0rem] box-border max-w-full mt-10">
                   <h1 className="m-0 flex-1 relative text-inherit leading-[5.16rem] capitalize font-normal font-inherit inline-block max-w-full mq450:text-[2.56rem] mq450:leading-[3.13rem] mq1050:text-[3.38rem] mq1050:leading-[4.13rem]">
                     Meet the Team
                   </h1>
@@ -173,11 +175,11 @@ const EmailInputFrame = () => {
                 </div>
               </div>
             </div>
-            <div className="w-[42.63rem] flex flex-row items-start justify-start py-[0rem] px-[3.19rem] box-border max-w-full text-[4.22rem] text-black font-cinzel-decorative mq750:pl-[1.56rem] mq750:pr-[1.56rem] mq750:box-border">
+            {/* <div className="w-[42.63rem] flex flex-row items-start justify-start py-[0rem] px-[3.19rem] box-border max-w-full text-[4.22rem] text-black font-cinzel-decorative mq750:pl-[1.56rem] mq750:pr-[1.56rem] mq750:box-border">
               <div className="h-[5.06rem] flex-1 relative tracking-[0.1em] inline-block max-w-full mq450:text-[2.56rem] mq1050:text-[3.38rem]">
                 TESTIMONIALS
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

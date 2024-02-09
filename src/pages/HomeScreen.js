@@ -8,6 +8,7 @@ import GroupComponent from "../components/GroupComponent";
 
 const HomeScreen = () => {
   return (
+    <>
     <div className="w-full relative bg-white overflow-hidden flex flex-col items-center justify-start tracking-[normal] overflow-x-hidden">
       <div className="w-[1.8rem] h-[1.81rem] relative overflow-hidden shrink-0 hidden" />
       <div className="w-[6.25rem] h-[6.25rem] relative overflow-hidden shrink-0 hidden" />
@@ -15,13 +16,13 @@ const HomeScreen = () => {
         <Navbar />
         <div className="flex-1 flex flex-row items-end justify-start py-[4rem] px-[3.5rem] box-border relative min-w-[46.94rem] min-h-[44.88rem] max-w-full mq450:pt-[2.63rem] mq450:pb-[2.63rem] mq450:box-border mq750:pl-[1.75rem] mq750:pr-[1.75rem] mq750:box-border mq1050:min-w-full">
           <img
-            className="h-full w-full absolute my-0 mx-[!important] top-[0rem] right-[0rem] bottom-[0rem] left-[0rem] max-w-full overflow-hidden max-h-full object-cover"
+            className="h-full w-full absolute mx-[!important] top-[0rem] right-[0rem] bottom-[0rem] left-[0rem] max-w-full overflow-hidden max-h-full object-cover"
             loading="eager"
             alt=""
             src="/rectangle-7@2x.png"
           />
           {/* Large Screen Hero CTA Start*/}
-          <div className="w-[34.69rem] hidden xl:flex flex-col items-center justify-start pt-[0.69rem] px-[0rem] pb-[0rem] box-border relative gap-[0.44rem] max-w-full text-center text-[2.02rem] text-indigo font-allura">
+          <div className="w-[34.69rem] lg:hidden xl:flex flex-col items-center justify-start pt-[0.69rem] px-[0rem] pb-[0rem] box-border relative gap-[0.44rem] max-w-full text-center text-[2.02rem] text-indigo font-allura">
       <div className="w-full h-full absolute my-0 mx-[!important] top-[0rem] bottom-[0rem] left-[-0.03rem] bg-white shadow-[9px_8px_7.1px_3px_rgba(0,_0,_0,_0.25)] z-[1]" />
       <div className="self-stretch h-[5rem] relative tracking-[0.05em] inline-block z-[2] mq450:text-[1.19rem] mq1050:text-[1.63rem]">
         <p className="m-0">Extra-ordinary Event delivered here....</p>
@@ -65,19 +66,21 @@ const HomeScreen = () => {
           </div>
         </div>
         <BackgroundFrame />
-        <div className="w-[67.69rem] flex flex-row items-start justify-start py-[0rem] pr-[1.06rem] pl-[0rem] box-border max-w-full">
+        <div className="w-[67.69rem] flex flex-row items-start justify-start py-[0rem] pr-[1.06rem] pl-[0rem] box-border max-w-full mb-20">
           <FrameComponent />
         </div>
         <h1 className="m-0 w-[20.13rem] h-[5.13rem] relative text-inherit tracking-[0.1em] font-normal font-inherit text-left inline-block max-w-full mq450:text-[2.56rem] mq1050:text-[3.38rem]">
           GALLERY
         </h1>
       </section>
-      <EmailInputFrame />
-      <ParentFrame />
+      {/* <EmailInputFrame /> */}
+      <div className="elfsight-app-55b57f34-0050-4996-a52c-ca25d79553a1 max-w-[85rem]" data-elfsight-app-lazy></div>
+      {/* <ParentFrame /> */}
       <Insta />
       <GroupComponent />
       {/* Made by Mumin Bhat. visit www.muminbhat.com to know more. */}
     </div>
+    </>
   );
 };
 
