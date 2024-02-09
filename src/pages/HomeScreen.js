@@ -76,6 +76,7 @@ const HomeScreen = () => {
       <ParentFrame />
       <Insta />
       <GroupComponent />
+      {/* Made by Mumin Bhat. visit www.muminbhat.com to know more. */}
     </div>
   );
 };
